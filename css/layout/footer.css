@@ -1,0 +1,185 @@
+    
+        
+        /* MOBILE */
+
+    
+    .end-page {
+        background: #2E2F42;}
+
+    .last-text {
+        color: #F4F4FD;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        max-width: 264px;}
+
+    .footer-social-list-icon {
+        display: flex;
+        list-style-type: none;
+        gap: 16px;
+        justify-content: center;}
+
+        .container-social-links{
+            margin-top: 72px;
+            text-align: center;
+            justify-content: center;}
+
+    .footer-social-link {
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+
+    .footer-logo {
+        display: block;
+        margin-bottom: 16px;
+        text-align: center;
+        align-items: center;}
+
+    .studio-footer{color: #F4F4FD;}
+
+    .footer-container {padding-top: 97.5px;
+        padding-bottom: 96px;
+        display: block;
+        align-items: baseline;}
+
+    .footer-text-link {
+        display: inline-block;
+        margin-bottom: 16px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        align-items: center;
+        justify-content: center;}
+
+
+    .footer-social-link:hover,
+    .footer-social-link:focus {
+        background-color: #31D0AA;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+    .container_sub {
+       margin-top: 72px; }
+
+    .label_footer {
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+        text-align: center;
+        }
+
+    .form_sub {
+        display: block;
+        }
+
+    .input_user_email {
+        width: 288px;
+        height: 40px;
+        padding-left: 16px;
+        border-radius: 4px;
+        border: 1px solid #FFF;
+        background-color: transparent;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        opacity: 0.3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); }
+
+    .input_user_email::placeholder {
+        color: #ffffff;}
+
+    .submit_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 165px;
+        height: 40px;
+        padding: 8px 24px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        color: #FFF;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #4D5AE5;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;}
+
+    .button_telegram {
+        margin-left: 16px;
+        fill: #FFFFFF;}
+
+
+
+
+        /* TABLET */
+
+
+@media screen and (min-width: 768px)
+{
+.container-social-links {
+        margin-top: 0;}
+
+        .container_sub {
+            margin-top: 0;}
+
+   .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 584px;
+    gap: 72px 24px;}
+
+    .form_sub{display: flex;
+    gap: 24px;}
+
+    .submit_button{margin: 0;}
+
+    .input_user_email {width: 264px;}
+
+    .label_footer {text-align: left}}
+
+
+     /* LAPTOP */
+
+@media screen and (min-width:1158px) {
+    .end-page {
+            padding: 100px 0;}
+      
+
+     .footer-container{}
+
+    .footer-social-list-icon{justify-content: flex-start;}
+    
+    .footer-logo {display: inline-block;}
+    
+    .logo-text {
+            margin-right: 120px;}
+
+        .footer-container { max-width: 100%;
+            align-items: baseline;
+            display: flex;
+            gap: 0;}
+       
+    .container-social-links{text-align:left ;
+        margin-right: 80px;}
+   
+        .input_user_email {opacity: initial;
+            box-shadow: initial}
+
+
+       .submit_button {font-family: Roboto;}}
+    
+        
