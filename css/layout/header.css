@@ -237,7 +237,7 @@ margin-left: 121px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    bottom: -20px;}}
+    bottom: -26px;}}
  
  
  
@@ -292,7 +292,7 @@ margin-left: 121px;
         gap: 40px;
         align-items: center;}
 
-    .active-link::after {bottom: -1px;}
+    .active-link::after{bottom: -3px; }
 
     .page-header {
         border-bottom: 1px solid #E7E9FC;
