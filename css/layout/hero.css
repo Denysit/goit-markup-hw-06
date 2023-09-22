@@ -53,7 +53,7 @@ color: #fff;}
 screen and (min-resolution:192dppx),
 screen and (min-device-pixel-rotatio: 2)
 { .hero-section { background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-        url(.../images/wrapper/Dark-bg@2x.jpg); }}
+        url(.../images/wrapper/dark-bg@2x.jpg); }}
 
   
 /* TABLET HERO SECTION */
@@ -72,7 +72,7 @@ screen and (min-device-pixel-rotatio: 2)
 .hero-section {
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-        url(.../images/wrapper/Dark-bg.jpg);
+        url(.../images/wrapper/dark-bg.jpg);
     max-width: 768px;
     height: 436px;}
 
@@ -84,7 +84,7 @@ screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-ratio: 2) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-        url(.../images/wrapper/Dark-bg@2x.jpg);}
+        url(.../images/wrapper/dark-bg@2x.jpg);}
 }
 
 
