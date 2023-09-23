@@ -6,7 +6,7 @@
 
 .hero-section{margin-left: auto;
 margin-right: auto;
-max-width: 320px;
+max-width: 767px;
 height: 432px;
 background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
         url(../images/wrapper/hero-image-mobile.jpg);
@@ -78,7 +78,7 @@ screen and (min-device-pixel-rotatio: 2)
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
         url(../images/wrapper/hero-image-tablet.jpg);
-    max-width: 768px;
+    max-width: 1157px;
     height: 436px;}
 
 .button {

@@ -17,7 +17,7 @@
      margin-bottom: 72px;}
 
  .photo-portfolio {
-     width: calc((100% - 48px) / 1);
+     width: 288px;
      border: #E7E9FC;
      background: #FFF;
      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
